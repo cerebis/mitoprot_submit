@@ -1,12 +1,12 @@
 mitoprot\_submit
 ================
 
- 
+
 
 Command line submission tool for the Mitoprot server
 ----------------------------------------------------
 
- 
+
 
 This tool simply submits multiple query sequences to the Mitoprot server from a
 multi-fasta file.
@@ -17,4 +17,6 @@ multi-fasta file.
 
 -   Results are written to an output file specified at runtime.
 
- 
+Requirements
+-   biopython
+-   urllib2
